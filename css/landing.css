@@ -1,0 +1,64 @@
+header {
+    max-height: 100vh;
+    height: 100vh;
+}
+
+* {
+    /* border: 2px solid red; */
+}
+
+header>div {
+
+}
+
+header h1 {
+    font-size: 70px;
+    
+}
+
+li {
+    list-style: none;
+}
+li::before {
+    content: "-";
+    color: white;
+    padding-right: 10px;
+    
+}
+.terms {
+    padding: 0;
+}
+.terms li{
+    display: inline;
+    font-size: 14px;
+    padding-right: 10px;
+    /* list-style: disc; */
+}
+
+.terms li:not(:first-child)::before {
+    content: '\2022';
+    color: blue;
+    width: 20px;
+    display: inline-block;
+    /* font-size: 15px;/ */
+    transform: scale(3) translate(5px, -1px);
+}
+
+.button-grp button {
+    width: 200px;
+}
+
+.card-pay {
+    padding: 70px 0!important;
+}
+
+.feature .image {
+    width: 150px;
+    color: blue;
+    height: 150px;
+    border: 1px solid gray;
+}
+
+.feature p {
+    font-size: 12px;
+}
