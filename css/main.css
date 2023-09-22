@@ -2,3 +2,6 @@
     text-decoration: none !important;
     font-weight
 }
+/* .title {
+    @include font-size(rem);
+} */
