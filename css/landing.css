@@ -38,6 +38,7 @@ li::before {
 .terms li:not(:first-child)::before {
     content: '\2022';
     color: blue;
+    /* color: rbg(3.1, 31.8, 97.3); */
     width: 20px;
     display: inline-block;
     /* font-size: 15px;/ */
@@ -49,16 +50,21 @@ li::before {
 }
 
 .card-pay {
-    padding: 70px 0!important;
+    padding: 70px 0;
 }
 
 .feature .image {
     width: 150px;
     color: blue;
+    /* color: rbg(3.1, 31.8, 97.3) !important; */
     height: 150px;
     border: 1px solid gray;
 }
 
 .feature p {
     font-size: 12px;
+}
+
+.rounding {
+    border-radius: 10% !important;
 }
