@@ -33,6 +33,13 @@ li::before {
     font-size: 14px;
     padding-right: 10px;
     /* list-style: disc; */
+    list-style:none;
+    /* padding-left: 0;
+    list-style-position: inside;  */
+}
+.terms ul {
+    padding-left: 1.2em;
+    list-style-position: inside; 
 }
 
 .terms li:not(:first-child)::before {
@@ -44,6 +51,7 @@ li::before {
     /* font-size: 15px;/ */
     transform: scale(3) translate(5px, -1px);
 }
+
 
 .button-grp button {
     width: 200px;
