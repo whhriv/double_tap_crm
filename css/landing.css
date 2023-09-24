@@ -68,3 +68,7 @@ li::before {
 .rounding {
     border-radius: 10% !important;
 }
+.fntcolor {
+    color: #0851f8 !important;
+    
+}
