@@ -1,83 +1,79 @@
 header {
-    max-height: 100vh;
-    height: 100vh;
+  max-height: 100vh;
+  height: 100vh;
 }
 
 * {
-    /* border: 2px solid red; */
+  /* border: 2px solid red; */
 }
 
-header>div {
-
+header > div {
 }
 
 header h1 {
-    font-size: 70px;
-    
+  font-size: 70px;
 }
 
 li {
-    list-style: none;
+  list-style: none;
 }
-li::before {
-    content: "-";
-    color: white;
-    padding-right: 10px;
-    
+.card-body li::before {
+  content: "-";
+  color: white;
+  padding-right: 10px;
 }
 .terms {
-    padding: 0;
+  padding: 0;
+  margin: 0;
 }
-.terms li{
-    display: inline;
-    font-size: 14px;
-    padding-right: 10px;
-    /* list-style: disc; */
-    list-style:none;
-    /* padding-left: 0;
-    list-style-position: inside;  */
+.terms li {
+  display: inline;
+  font-size: 14px;
+  padding-right: 10px;
+  /* list-style: disc; */
+  list-style: none;
+  padding-left: 0;
+  /*list-style-position: inside;  */
 }
 .terms ul {
-    padding-left: 1.2em;
-    list-style-position: inside; 
-    margin-left: 1.2em;
+  padding-left: 1.2em;
+  list-style-position: inside;
+  margin-left: 1.2em;
 }
 
 .terms li:not(:first-child)::before {
-    content: '\2022';
-    color: blue;
-    /* color: rbg(3.1, 31.8, 97.3); */
-    width: 20px;
-    display: inline-block;
-    /* font-size: 15px;/ */
-    transform: scale(3) translate(5px, -1px);
+  content: "\2022";
+  color: blue;
+  /* color: rbg(3.1, 31.8, 97.3); */
+  width: 20px;
+  display: inline-block;
+  /* font-size: 15px;/ */
+  transform: scale(3) translate(5px, -1px);
 }
 
-
 .button-grp button {
-    width: 200px;
+  width: 200px;
 }
 
 .card-pay {
-    padding: 70px 0;
+  padding: 70px 0;
 }
 
 .feature .image {
-    width: 150px;
-    color: blue;
-    /* color: rbg(3.1, 31.8, 97.3) !important; */
-    height: 150px;
-    border: 1px solid gray;
+  width: 150px;
+  color: blue;
+  /* color: rbg(3.1, 31.8, 97.3) !important; */
+  height: 150px;
+  border: 1px solid gray;
 }
 
 .feature p {
-    font-size: 12px;
+  font-size: 12px;
 }
 
 .rounding {
-    border-radius: 50% !important;
+  border-radius: 50% !important;
 }
 .fntcolor {
-    color: #0851f8 !important;
-
+  color: #0851f8 !important;
 }
